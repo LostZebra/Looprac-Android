@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="looprac.app.CarpoolDetailActivity" >
+    <item android:id="@+id/confirmrequest"
+        android:title="@string/confirmrequest"
+        android:icon="@drawable/ic_action_accept"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/cancelrequest"
+        android:icon="@drawable/ic_action_cancel"
+        android:title="@string/cancel"
+        android:showAsAction="always" />
+</menu>

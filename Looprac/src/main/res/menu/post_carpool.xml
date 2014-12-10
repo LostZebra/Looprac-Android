@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="looprac.app.PostCarpoolActivity" >
+    <item android:id="@+id/post"
+        android:icon="@drawable/ic_action_send_now"
+        android:title="@string/confirmpost"
+        android:showAsAction="always"/>
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto" >
+      <item 
+          android:id="@+id/action_refresh"
+          android:icon="@drawable/ic_action_refresh"
+          android:title="@string/action_refresh"
+          android:showAsAction="always"/>
+      <item
+          android:icon="@drawable/ic_action_overflow"
+          android:title="@string/action_compose"
+          android:showAsAction="always">
+          <menu>
+              <group>
+                  <item android:id="@+id/action_new"
+			          android:icon="@drawable/ic_action_new"
+			          android:title="@string/action_new"
+			          android:showAsAction="ifRoom|withText" />
+                  <item
+                      android:id="@+id/action_backup"
+                      android:icon="@drawable/ic_action_cloud"
+                      android:title="@string/action_compose_backup"
+                      android:showAsAction="ifRoom|withText" />
+                  <item 
+                      android:id="@+id/syncweibo"
+                      android:icon="@drawable/ic_action_weibo"
+                      android:title="@string/syncweibo"
+                      android:showAsAction="ifRoom|withText"/>
+              </group>
+          </menu>
+      </item>
+</menu>

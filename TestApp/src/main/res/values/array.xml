@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>  
+    <string-array name="phonetypelist" >  
+        <item>MOBILE</item>  
+        <item>WORK</item>  
+        <item>HOME</item>  
+        <item>OTHER</item>       
+    </string-array>  
+</resources>  
+

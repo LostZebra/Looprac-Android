@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/xiaoyong/Documents/Andriod Projects/Looprac/build/intermediates/pre-dexed/debug/Parse-1.5.1-9dbdfa74a2424d5f6da21cfedddaa88317f37b22.jar"
+        jar="/Users/xiaoyong/Documents/Andriod Projects/Looprac/libs/Parse-1.5.1/Parse-1.5.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3d645417e7780d44f32e29a3ec6b729b75aef26c"/>
+    <item
+        dex="/Users/xiaoyong/Documents/Andriod Projects/Looprac/build/intermediates/pre-dexed/debug/classes-6089797546123d60c4e5e5ad0b076c8231333fc5.jar"
+        jar="/Users/xiaoyong/Documents/Andriod Projects/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3dfdf1db5ce5ea2999a5dcde8c8e650b02660059"/>
+    <item
+        dex="/Users/xiaoyong/Documents/Andriod Projects/Looprac/build/intermediates/pre-dexed/debug/classes-23298d6b0ae759ab003240790b801cc2d4977079.jar"
+        jar="/Users/xiaoyong/Documents/Andriod Projects/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="/Users/xiaoyong/Documents/Andriod Projects/Looprac/build/intermediates/pre-dexed/debug/support-v4-19.1.0-fe930dc68beb1e566675ce71b270d4091c6c249b.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+
+</pre-dex-items>

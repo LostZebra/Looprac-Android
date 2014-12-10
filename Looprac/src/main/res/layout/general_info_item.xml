@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <TextView
+        android:id="@+id/infolabel"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical|left"/>
+
+    <View
+        android:id="@+id/paddingview"
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/infolabel"
+        android:background="#FF8800"/>
+
+    <!--Views that are optional-->
+    <TextView
+        android:id="@+id/infotext"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/paddingview"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/editprice"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/paddingview"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="10dp"
+        android:hint="@string/setprice"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/chooseprice"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/paddingview"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="10dp"
+        android:entries="@array/price"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/choosecapacity"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/paddingview"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="10dp"
+        android:entries="@array/capacity"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/chooseradius"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/paddingview"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="10dp"
+        android:entries="@array/radius"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/infobutton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_action_about"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="10dp"
+        android:visibility="gone"/>
+
+    <RatingBar
+        android:id="@+id/driverratings"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/paddingview"
+        android:max="10"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:visibility="gone"/>
+
+</RelativeLayout>

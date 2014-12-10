@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- app name string -->
+    <string name="app_name">WeiContact</string>
+    
+    <!-- app content string -->
+    <string name="desc">photo</string>  
+    <string name="workphonelabeltext">Work</string>
+    <string name="homephonelabeltext">Home</string>
+    <string name="otherphonelabeltext">Other</string>
+    <string name="mobilephonelabeltext">Mobile</string>
+    <string name="loginbutton">Login</string>
+    <string name="logininterface">Login</string>
+    <string name="contactdetailinterface">Detail</string>
+    <string name="breifviewinterface">Contact</string>
+    <string name="weibolabel">Weibo</string>
+    <string name="editweibolabel">His/Her Weibo</string>
+    <string name="phonelabel">Phone</string>
+    <string name="weibolinkno">Ops, No Account Yet</string>
+    <string name="addnewnum">Add Another Phone Number</string>
+    <string name="addhint">Add New Here</string>
+    <string name="savenewcontact">Save</string>
+    <string name="namelabel">Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="firstname">First Name</string>
+    <string name="weibopic">Weibo Pic</string>
+    <string name="retweetpic">Retweet Pic</string>
+    <string name="weiboprofile">Profile</string>
+    <string name="moreoptions">&#8230;</string>
+    <string name="loginwebservice">Login Now</string>
+    <string name="cancellogin">Cancel</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="repassword">Repeat password</string>
+    <string name="loginmain">Login</string>
+    <string name="syncweibo">Weibo Sync</string>
+    <string name="register">New Here?</string>
+    <string name="local">This Phone:</string>
+    
+    <!-- icon string -->
+    <string name="action_compose">More</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_new">New</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_compose_backup">Backup</string>
+    <string name="action_compose_restore">Restore</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_back">Back</string>
+    <string name="action_next">Next</string>
+</resources>
